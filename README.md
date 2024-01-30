@@ -1,4 +1,4 @@
-Media Controller Test
+Media Controller
 =====================
 Create a simple MediaController that connects to a MediaBrowserService
 in order to test inter-app media controls.
@@ -76,12 +76,6 @@ as a list of prepare and play actions on the main screen. For actions that are n
 supported, it also colors the buttons red on the controller screen.
 
 See the screenshots below for examples.
-
-Screenshots
-===========
-
-![](screenshots/screenshots.png "Controls, URIs, Playback")
-
 
 License
 =======
