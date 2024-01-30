@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.MediaControl">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">@dimen/control_padding</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.TV" parent="Theme.Leanback" />
+
+    <style name="Widget.Leanback.GuidedActionItemChevronStyle" parent="@style/Widget.Leanback" tools:ignore="PrivateResource">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+        <item name="android:src">@drawable/ic_keyboard_white</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginStart">@dimen/margin_inner_drawable</item>
+    </style>
+
+    <style name="Header" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">@dimen/tests_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubHeader" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">@dimen/tests_subheader_text_size</item>
+    </style>
+
+    <style name="SubText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textSize">@dimen/tests_details_text_size</item>
+    </style>
+
+</resources>

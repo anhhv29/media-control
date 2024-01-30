@@ -1,0 +1,29 @@
+buildscript {
+    ext {
+        app_compat_version = '1.3.1'
+        constraint_layout_version = '2.1.1'
+        kotlin_version = '1.5.31'
+        leanback_version = '1.1.0-rc02'
+        material_version = '1.4.0'
+        support_lib_version = '1.0.0-beta01'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
