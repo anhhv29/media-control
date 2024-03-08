@@ -5,8 +5,6 @@
     <color name="colorAccent">#201E1E</color>
     <color name="colorInactive">#a0a0a0</color>
 
-    <color name="ic_launcher_background">#ffffff</color>
-
     <color name="appBarIconTint">#fff</color>
 
     <color name="background_grey">#e0e0e0</color>

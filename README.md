@@ -8,7 +8,6 @@ This app works with the Universal Android Music Player sample,
 or any other app that implements the media APIs.
 https://github.com/googlesamples/android-UniversalMusicPlayer
 
-
 Usage
 =====
 
